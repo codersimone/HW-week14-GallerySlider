@@ -3,15 +3,12 @@ let slideIndex = 1;
 function nextSlide() {
     showSlides(slideIndex += 1);
 }
-showSlides(slideIndex);
 
 function previousSlide() {
     showSlides(slideIndex -= 1);
 }
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+showSlides(slideIndex);
 
 function showSlides(n) {
     let slides = document.getElementsByClassName("item");
